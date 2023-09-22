@@ -3,12 +3,12 @@ package Basics;
 public class Q1Person {
 private String name;
 private int age;
-public Q1Person(String name,int age)
+public Q1Person(String name,int age)//constructor
 {
-	this.name=name;
+	this.name=name;                /*Atributes*/
 	this.age=age;
 }
-public String getname() {
+public String getname() {         //Getter Method
 	return name;
 }
 public int getage() {
